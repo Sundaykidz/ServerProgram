@@ -11,13 +11,13 @@
 
 	<script>
 		setTimeout(function(){
-			location.href='/BATCH/studentList.do';
-		}, 3000);
+			location.href='/ServerProgram/views/list.jsp';
+		}, 1);
 	</script>
 
 	<h1>시작</h1>
 	<div>바로 이동하려면 아래 버튼을 클릭하세요.</div>
-	<button onclick="location.href='/BATCH/studentList.do'">바로 이동</button>
+	<button onclick="location.href='/ServerProgram/views/list.jsp'">바로 이동</button>
 
 </body>
 </html>
